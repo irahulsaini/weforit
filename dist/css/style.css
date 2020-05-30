@@ -1,11 +1,34 @@
-.masthead {
-    position: relative;
-    width: 100%;
-    min-height: 35rem;
-    padding: 15rem 0;
-    background-image: url("../img/banner-1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+.top-nav {
+  overflow: hidden;
+  opacity: 50%;
+  background: linear-gradient(to bottom,
+      rgba(22, 22, 22, 0.3) 100%,
+      rgba(22, 22, 22, 0.7) 100%,
+      #161616 100%);
 }
+
+.masthead {
+  position: relative;
+  width: 100%;
+  min-height: 35rem;
+  padding: 15rem 0;
+  /* background-image: url("../img/banner-1.jpg"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background: linear-gradient(to bottom,
+      rgba(22, 22, 22, 0.3) 100%,
+      rgba(22, 22, 22, 0.7) 100%,
+      #161616 100%),
+    url("../img/banner-1.jpg");
+
+  /* background: linear-gradient(to right, #000000 0%, #000000 50%, #000000 60%),
+    url("../img/banner-1.jpg"); */
+}
+
+/* 
+background: #000000;
+background: -moz-linear-gradient(left, #000000 0%, #000000 50%, #000000 100%);
+background: -webkit-linear-gradient(left, #000000 0%, #000000 50%, #000000 100%);
+background: linear-gradient(to right, #000000 0%, #000000 50%, #000000 100%); */
